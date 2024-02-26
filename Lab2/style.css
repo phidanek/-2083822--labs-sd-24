@@ -1,0 +1,54 @@
+body {
+    padding-top: 50px;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+}
+header a {
+    color: white; 
+    text-decoration: none; 
+}
+header li {
+    margin-right: 20px;
+}
+header li:last-child {
+    margin-right: 0;
+}
+section {
+    color: black;
+    margin: auto;
+}
+.about-us-container .title {
+    text-align: center;
+} 
+.about-us-container .paragraph {
+    text-align: center;
+}
+.about-us-container img{
+    display: block; /* Make the image a block element */
+    margin: 0 auto;
+}
