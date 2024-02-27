@@ -70,8 +70,8 @@ section {
     text-align: center;
 }
 .articles-container {
-    display: flex; /* Use flexbox for articles */
-    gap: 20px; /* Add some space between articles */
-    justify-content: center; /* Center articles horizontally */
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
 }
 
